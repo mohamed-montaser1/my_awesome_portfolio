@@ -1,0 +1,48 @@
+.landing {
+  height: 100vh;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    .info {
+      width: 50%;
+      h1 {
+        font-size: 60px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: capitalize;
+      }
+    }
+    .img {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .landing {
+    .container {
+      width: 100%;
+    }
+    .img {
+      display: none;
+    }
+    .info {
+      margin: 0 auto;
+      text-align: center;
+      width: 100% !important;
+      position: absolute;
+      left: 0;
+      a {
+        margin: 0 auto;
+      }
+    }
+  }
+}
