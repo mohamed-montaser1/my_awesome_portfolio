@@ -113,12 +113,22 @@ back_to_top.onclick = function () {
   document.querySelector("header").scrollIntoView();
 };
 let prev_y = window.scrollY;
+let navbar = document.querySelector(".navbar");
+let navbar_menu = document.querySelector(".navbar .navbar__nav")
 window.onscroll = function () {
   let current_y = window.scrollY;
   // user scroll up
   if (prev_y > current_y) {
-    
+    navbar.style.transform = "translateY(0px)";
+    prev_y = current_y;
+  } else if (current_y > prev_y) {
+    if (!navbar_menu.classList.contains('open')) {
+      navbar.style.transform = "translateY(-82px)";
+      prev_y = current_y;
+    }
+    return;
   }
+
   if (window.scrollY >= 1000) {
     back_to_top.classList.add("show");
   } else {

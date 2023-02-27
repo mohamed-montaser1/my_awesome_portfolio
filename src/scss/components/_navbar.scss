@@ -1,5 +1,7 @@
 .navbar {
   height: 82px;
+  // transform: translateY(-82px);
+  transition: all 400ms $transition;
   display: flex;
   align-items: center;
   position: fixed;
