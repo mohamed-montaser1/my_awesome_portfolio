@@ -1,0 +1,33 @@
+[33mcommit e588e032b0148426d966f85d672ffece1a77a694[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: mohamed <mastrocoding@gmail.com>
+Date:   Mon Feb 27 16:55:28 2023 +0200
+
+    edit navbar #1
+    
+    add toggle navbar on scroll
+
+[33mcommit 85e3cd69be8c889d97e2fba8ff2e686fbe3d3771[m
+Author: mohamed <mastrocoding@gmail.com>
+Date:   Mon Feb 27 16:10:43 2023 +0200
+
+    add hsoub certificate to about section
+    
+    about section edit #1
+
+[33mcommit 77f5aede7867505bb8533f9e45e441639e129bcd[m
+Author: mohamed <mastrocoding@gmail.com>
+Date:   Mon Feb 27 15:25:29 2023 +0200
+
+    changing fetching_repos_project_size #1
+
+[33mcommit 32415bce10e66ad4768c974a9d4f75f76eb2733e[m
+Author: mohamed <mastrocoding@gmail.com>
+Date:   Mon Feb 27 15:14:47 2023 +0200
+
+    add fetching github users to work section
+
+[33mcommit b35341e38f700e3471c23e67a1882b1338641d5d[m
+Author: mohamed <mastrocoding@gmail.com>
+Date:   Mon Feb 27 15:07:37 2023 +0200
+
+    Initial commit
